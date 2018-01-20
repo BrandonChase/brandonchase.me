@@ -22,7 +22,7 @@ header {
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-  padding-bottom: 5px;
+  padding: 10px;
 }
 
 header .name {
@@ -41,7 +41,8 @@ header .profile-pic {
 
 #resume {
   width: 680px;
-  height: 903px;
+  height: 915px;
+  frame-border: 0;
 }
 
 /* -----LINKS----- */
