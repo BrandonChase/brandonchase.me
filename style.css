@@ -7,6 +7,15 @@
   box-sizing: border-box;
 }
 
+.centered-section {
+  text-align: center;
+  border-top: 3px dotted darkgrey;
+}
+
+.centered-section h1 {
+  margin: 10px 0;
+}
+
 /* -----HEADER----- */
 header {
   display: flex;
@@ -14,7 +23,6 @@ header {
   justify-content: center;
   align-items: center;
   padding-bottom: 5px;
-  border-bottom: 3px solid lightgrey;
 }
 
 header .name {
@@ -27,6 +35,13 @@ header .profile-pic {
   height: 150px;
   border-radius: 50%;
   border: 2px solid lightgrey;
+}
+
+/* -----RESUME----- */
+
+#resume {
+  width: 680px;
+  height: 903px;
 }
 
 /* -----LINKS----- */
