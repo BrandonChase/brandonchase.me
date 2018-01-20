@@ -9,14 +9,15 @@
 
 .centered-section {
   text-align: center;
-  border-top: 3px dotted lightgrey;
+  border-top: 5px solid grey;
   margin: 10px 0;
   padding: 10px 0;
 }
 
 .centered-section h1 {
-  font-style: italic;
   padding-bottom: 10px;
+  font-size: 60px;
+  letter-spacing: 10px;
 }
 
 /* -----HEADER----- */
@@ -26,18 +27,20 @@ header {
   justify-content: center;
   align-items: center;
   padding: 10px;
+  text-align: center;
 }
 
 header .name {
-  font-size: 50px;
+  font-size: 100px;
   font-weight: bold;
   margin: 10px;
+  color: white;
 }
 
 header .profile-pic {
   height: 150px;
   border-radius: 50%;
-  border: 2px solid lightgrey;
+  border: 3px solid black;
 }
 
 /* -----RESUME----- */
