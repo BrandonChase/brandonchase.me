@@ -9,11 +9,14 @@
 
 .centered-section {
   text-align: center;
-  border-top: 3px dotted darkgrey;
+  border-top: 3px dotted lightgrey;
+  margin: 10px 0;
+  padding: 10px 0;
 }
 
 .centered-section h1 {
-  margin: 10px 0;
+  font-style: italic;
+  padding-bottom: 10px;
 }
 
 /* -----HEADER----- */
@@ -40,9 +43,20 @@ header .profile-pic {
 /* -----RESUME----- */
 
 #resume {
-  width: 680px;
+  width: 100%;
+  max-width: 680px;
   height: 915px;
   frame-border: 0;
 }
 
 /* -----LINKS----- */
+#links {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+#links img {
+  height: 200px;
+  margin: 10px;
+}
